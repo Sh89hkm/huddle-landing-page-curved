@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Open+Sans:wght@400;700&display=swap">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body class="font-['Open Sans']">
+
+  <div>
+    <header class="flex flex-row justify-between py-8 px-6 lg:p-14 lg:pb-2">
+      <img class="ml-4 mt-2 max-w-40 lg:max-w-52" src="./images/logo1.svg" alt="Huddle Logo">
+      <button type="button" class="text-[#ff52bf] border-2 border-[#ff52bf] px-5 lg:px-8 rounded-full font-semibold hover:shadow-sm hover:border-pink-300 hover:text-pink-300">Try It Free</button>
+    </header>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="px-4 flex flex-col items-center gap-4">
+    <h1 class="text-center text-3xl lg:text-5xl max-w-md lg:max-w-fit text-[#00252e] font-['Poppins'] font-bold">Build The Community Your Fans Will Love</h1>
+    <br>
+    <p class="text-center text-lg lg:text-md max-w-md lg:max-w-xl text-gray-500 font-semibold">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p> 
+    <br>
+    <button type="button" class="max-w-fit text-md lg:text-lg mt-8 mb-28 lg:mb-20 px-14 lg:px-24 py-4 lg:py-5 bg-[#ff52bf] text-[#f5faff] drop-shadow-xl rounded-full font-bold hover:bg-pink-300">Get Started For Free</button>
+    <br>
+    <img class="lg:max-w-min" src="./images/screen-mockups.svg" alt="screen mockups">
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="flex flex-col items-center lg:flex-row lg:justify-between lg:mx-72 gap-20">
+    <div class="flex flex-col items-center gap-4">
+      <img class="flex self-start w-9" src="./images/icon-communities.svg" alt="communities icon">
+      <h1 class="text-[#00252e] text-7xl font-bold">1.4k+</h1>
+      <p class="text-gray-400 text-xl">Communities Formed</p>
+    </div>
+    <div class="flex flex-col items-center gap-4">
+      <img class="flex self-start w-8" src="./images/icon-messages.svg" alt="messages icon">
+      <h1 class="text-[#00252e] text-7xl lg:text-7xl font-bold">2.7m+</h1>
+      <p class="text-gray-400 text-xl">Messages Sent</p>
+    </div>
+  </div>
+  
+  <br>
+  <br>
+
+  <div class="lg:py-16 bg-none lg:bg-[url('./images/bg-section-top-desktop-1.svg')] bg-no-repeat">
+    <img class="w-full lg:hidden" src="./images/bg-section-top-mobile-1.svg" alt="wave background mobile">
+  </div>
+  <div class="py-20 px-14 lg:px-0 bg-[#f5faff]">
+    <div class="lg:mx-20 flex flex-col items-center lg:flex-row lg:justify-between lg:items-center ">
+      <div class="px-4 pt-10 pb-0 lg:px-16 lg:pt-10 lg:pb-20 text-center lg:text-left">
+        <br>
+        <h1 class="pb-4 text-[#00252e] text-2xl lg:text-4xl font-['Poppins'] font-bold">Grow Together</h1>
+        <p class="w-[22rem] lg:w-[32rem] text-gray-500 font-semibold text-base">
+          Generate meaningful discussions with your audience and build a strong, loyal community. 
+          Think of the insightful conversations you miss out on with a feedback form.
+        </p> 
+      </div>
+      <img class="pt-2 lg:pt-0 lg:mr-10 order-first lg:order-last lg:flex lg:self-end lg:w-[32rem]" src="./images/illustration-grow-together.svg" alt="illustration grow together">
+    </div>
+  </div>
+  <div class="lg:py-16 bg-none lg:bg-[url('./images/bg-section-bottom-desktop-1.svg')] bg-no-repeat">
+    <img class="w-full lg:hidden" src="./images/bg-section-bottom-mobile-1.svg" alt="wave background mobile">
+  </div>
+
+  <br>
+  <br>
+
+  <div class="py-20 px-14 lg:px-0">
+    <div class="flex flex-col items-center lg:flex-row lg:justify-between lg:items-center lg:m-20">
+      <div class="text-center pt-10 pb-0 lg:pl-12 lg:pt-14 lg:pb-20 lg:text-left lg:w-[32rem]">
+        <br>
+        <h1 class="pb-4 text-[#00252e] text-2xl lg:text-4xl font-['Poppins'] font-bold">Flowing Conversations</h1>
+        <p class="w-[22rem] lg:w-[32rem] text-gray-500 font-semibold text-base">
+          You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+          have just-in-time loading for a more natural flow.
+        </p> 
+      </div>
+      <img class="pt-6 pb-6 lg:pt-0 lg:pb-2 lg:ml-10 order-first lg:flex lg:self-center lg:w-[32rem]" src="./images/illustration-flowing-conversation.svg" alt="illustration flowing conversation">
+    </div>
+  </div>
+
+  <br>
+  
+  <div class="lg:py-16 bg-none lg:bg-[url('./images/bg-section-top-desktop-2.svg')] bg-no-repeat">
+    <img class="w-full lg:hidden" src="./images/bg-section-top-mobile-2.svg" alt="wave background mobile">
+  </div>
+  <div class="py-16 px-14 lg:px-0 bg-[#f5faff]">
+    <div class="lg:mx-20 flex flex-col items-center lg:flex-row lg:justify-between lg:items-center ">
+      <div class="px-4 pt-10 pb-0 lg:px-16 lg:pt-10 lg:pb-20 text-center lg:text-left">
+        <br>
+        <h1 class="pb-4 text-[#00252e] text-2xl lg:text-4xl font-['Poppins'] font-bold">Your Users</h1>
+        <p class="w-[22rem] lg:w-[32rem] text-gray-500 font-semibold text-base">
+        It takes no time at all to integrate Huddle with your app's authentication solution. 
+        This means, once signed in to your app, your users can start chatting immediately.
+        </p> 
+      </div>
+      <img class="lg:pt-0 lg:mr-10 order-first lg:order-last lg:flex lg:self-end lg:w-[32rem]" src="./images/illustration-your-users.svg" alt="illustration your users">
+    </div>
+  </div>
+  <div class="lg:py-16 bg-none lg:bg-[url('./images/bg-section-bottom-desktop-2.svg')] bg-no-repeat">
+    <img class="w-full lg:hidden" src="./images/bg-section-bottom-mobile-2.svg" alt="wave background mobile">
+  </div>
+
+  <br>
+
+  <div class="flex flex-col items-center mt-32 mb-52 lg:my-40">
+      <h1 class="w-[20rem] lg:w-[40rem] pb-12 text-[#00252e] text-center text-3xl lg:text-4xl font-['Poppins'] font-bold">Ready To Build Your Community?</h1>
+      <button type="button" class="max-w-max text-sm lg:text-lg px-12 py-3.5 lg:px-28 lg:py-6 bg-[#ff52bf] text-[#f5faff] drop-shadow-xl rounded-full font-bold hover:bg-pink-300">Get Started For Free</button> 
+  </div>
+
+  <br>
+
+  <div class="lg:py-20 lg:-mb-1 bg-none lg:bg-[url('./images/bg-footer-top-desktop.svg')] bg-no-repeat">
+    <img class="w-full lg:hidden" src="./images/bg-footer-top-mobile.svg" alt="wave background mobile">
+  </div>
+  
+  <footer class="bg-[#00252e] text-[#ebfbff] text-4xl lg:text-base p-5 pt-20 lg:pt-28">
+    
+    <div class="lg:flex lg:flex-row lg:justify-between px-5 lg:pl-24 lg:pr-10">
+      <div class="lg:order-last">
+        <h1 class="pb-4 lg:pt-2 text-2xl lg:text-2xl font-['Poppins'] font-bold">NEWSLETTER</h1>
+        <p class="pb-10 lg:pb-10 max-w-max lg:max-w-96 text-base lg:text-md font-semibold">To recieve tips on how to grow your community, sign up to our weekly newsletter. We'll never send you spam or pass on your email address</p>
+        <div class="flex flex-col lg:flex-row items-end max-w-fit">
+          <div class="flex flex-col">
+            <input type="email" class="text-base peer focus:outline-none invalid:border invalid:border-[#ff4242] text-[#00252e] w-[20rem] px-4 mb-4 py-3 lg:mr-8 lg:w-[22rem] rounded-md">
+            <p class="-mt-2 -mb-4 lg:-mb-0 max-w-fit text-sm text-[#ff4242] invisible peer-invalid:visible">Check your email please</p>
+          </div>
+          <button type="button" class="lg:self-start text-center text-lg py-2.5 px-10 bg-[#ff52bf] text-[#f5faff] drop-shadow-xl rounded-md font-bold hover:bg-pink-300">Subscribe</button>
+        </div>
+      </div>
+  
+      <div class="pt-28 lg:pt-0">
+        <img class="pb-6 w-56 lg:w-60 lg:justify-self-center" src="./images/logo2.svg" alt="Huddle Logo">
+        <p class="pb-10 lg:pb-6 max-w-2xl lg:max-w-80 text-base lg:text-md font-semibold">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+          vestibulum a, ultrices quis sem.
+        </p>
+        <p class="flex flex-row pb-4 text-base lg:text-md"><img class="p-1 pr-6 w-12 lg:pt-0.5" src="./images/icon-phone.svg" alt="phone">Phone: +1-543-123-4567</p>
+        <p class="flex flex-row pb-4 text-base lg:text-md"><img class="p-1 pr-6 w-12 lg:pt-1" src="./images/icon-email.svg" alt="email">example@huddle.com</p>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="flex flex-row items-center px-5 lg:pl-24 my-10">
+      <a href="#facebook" class="flex items-center mr-4 bg-[#f5faff] text-[#00252e] rounded-md hover:bg-sky-500 hover:cursor-pointer"><i class="pr-1 pl-4 fab fa-facebook-f text-2xl"></i></a>
+      <a href="#instagram" class="flex items-center mr-4 rounded-md text-[#f5faff] hover:text-sky-500 hover:cursor-pointer"><i class="fab fa-instagram text-3xl lg:text-4xl"></i></a>
+      <a href="#twitter" class="flex items-center mr-4 bg-[#f5faff] text-[#00252e] rounded-md hover:bg-sky-500 hover:cursor-pointer"><i class="px-1 fab fa-twitter text-2xl"></i></a>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="p-2 flex justify-center text-xl lg:text-xs">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Shvan</a>.
+      </p>
+    </div>
+
+  </footer>
+
+</body>
+</html>
